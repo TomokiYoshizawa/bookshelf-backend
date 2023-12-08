@@ -1,0 +1,82 @@
+[
+  {
+    "_id": { "$oid": "6334634881d8ae4ba04fbc8e" },
+    "title": "1984",
+    "description": "George Orwell",
+    "rating": 2,
+    "comment": "Thought-provoking",
+    "createdAt": { "$date": { "$numberLong": "1664377672489" } },
+    "updatedAt": { "$date": { "$numberLong": "1665755227492" } },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "633471d481d8ae4ba04fbca9" },
+    "title": "To Kill a Mockingbird",
+    "description": "Harper Lee",
+    "rating": 3,
+    "comment": "Captivating",
+    "createdAt": { "$date": { "$numberLong": "1664381396781" } },
+    "updatedAt": { "$date": { "$numberLong": "1665755323047" } },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6333ed5ec73723402b0796c0" },
+    "title": "The Great Gatsby",
+    "description": "This is a story I heard from an old man in the village when I was young.",
+    "rating": 3,
+    "comment": "Very sad. Edited.",
+    "createdAt": { "$date": { "$numberLong": "1664347486938" } },
+    "updatedAt": { "$date": { "$numberLong": "1665746552802" } },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "633548e692df1eddeed375d6" },
+    "title": "Pride and Prejudice",
+    "description": "Overview of Pride and Prejudice",
+    "rating": 4,
+    "comment": "Charming",
+    "createdAt": { "$date": { "$numberLong": "1664436454763" } },
+    "updatedAt": { "$date": { "$numberLong": "1664863448112" } },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "633bcc28e8223018daf09170" },
+    "title": "A Brief History of Time",
+    "description": "A book about the understanding of the universe.",
+    "rating": 5,
+    "comment": "Mind-expanding",
+    "createdAt": { "$date": { "$numberLong": "1664863272254" } },
+    "updatedAt": { "$date": { "$numberLong": "1665755281464" } },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "633bccbde8223018daf0917b" },
+    "title": "The Origin of Species",
+    "description": "Learning about the origins of species.",
+    "rating": 5,
+    "comment": "Excellent",
+    "createdAt": { "$date": { "$numberLong": "1664863421748" } },
+    "updatedAt": { "$date": { "$numberLong": "1665755269020" } },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6348cb2360bfbbb3b24b6ffc" },
+    "title": "Animal Farm",
+    "description": "George Orwell",
+    "rating": 4,
+    "comment": "Insightful",
+    "createdAt": { "$date": { "$numberLong": "1665714979356" } },
+    "updatedAt": { "$date": { "$numberLong": "1665755215615" } },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "63566ef3c58f15f29410dc90" },
+    "title": "Brave New World",
+    "description": "Aldous Huxley",
+    "rating": 5,
+    "comment": "Provocative",
+    "createdAt": { "$date": { "$numberLong": "1666608883435" } },
+    "updatedAt": { "$date": { "$numberLong": "1666608883435" } },
+    "__v": 0
+  }
+]
