@@ -75,7 +75,7 @@ async function deliteBook(req, res) {
   try {
     const _id = req.params.id;
     const result = await Book.deleteOne({ _id });
-    console.log(result);
+    // console.log(result);
     res.json({ msg: "Book deleted successfully" });
   } catch (error) {
     res.status(500).send("message: Target book not found");

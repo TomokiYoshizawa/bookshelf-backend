@@ -1,5 +1,7 @@
 import express from "express";
 import apiRoutes from "./api-routes/index.mjs";
+import authRoutes from "./api-routes/auth.mjs";
+
 import "./helpers/db.mjs";
 import dotenv from "dotenv";
 
@@ -13,6 +15,9 @@ const { PORT } = process.env;
 app.use(express.json()); // parse incoming requests with JSON payloads
 app.use(cors()); // allow cross-origin requests
 app.use(express.static("public/images"));
+
+//auth routes
+app.use("/auth", authRoutes);
 
 // API
 app.use("/api", apiRoutes);

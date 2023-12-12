@@ -109,20 +109,4 @@
     "$date": "2022-10-14T13:46:55.615Z"
   },
   "__v": 0
-},
-{
-  "_id": {
-    "$oid": "63566ef3c58f15f29410dc90"
-  },
-  "title": "Brave New World",
-  "description": "Aldous Huxley",
-  "rating": 5,
-  "comment": "Provocative",
-  "createdAt": {
-    "$date": "2022-10-24T10:54:43.435Z"
-  },
-  "updatedAt": {
-    "$date": "2022-10-24T10:54:43.435Z"
-  },
-  "__v": 0
 }]
