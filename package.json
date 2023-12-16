@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:api": "npx nodemon server.mjs"
+    "dev:api": "npx nodemon server.mjs",
+    "start": "node Server.mjs"
   },
   "keywords": [],
   "author": "",
