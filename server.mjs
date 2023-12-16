@@ -33,6 +33,6 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: "something went wrong" });
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || 8080, () => {
   console.log(`Express server running at ${PORT}`);
 });
