@@ -23,7 +23,7 @@ app.use("/auth", authRoutes);
 app.use("/api", apiRoutes);
 // when a path is not found
 app.use((req, res) => {
-  res.status(404).send("Not found");
+  res.status(404).send("Not found test");
 });
 // error handler
 app.use((err, req, res, next) => {
