@@ -19,6 +19,10 @@ app.use(express.static("public/images"));
 //auth routes
 app.use("/auth", authRoutes);
 
+app.get("/", (req, res) => {
+  res.send("hello");
+});
+
 // API
 app.use("/api", apiRoutes);
 // when a path is not found
